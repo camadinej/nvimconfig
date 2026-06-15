@@ -1,8 +1,3 @@
-vim.g.mapleader = ";"
-
-local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
-
-vim.opt.rtp:prepend(lazypath)
-
-require("lazy").setup({})
-
+require("config.options")
+require("config.keymaps")
+require("config.lazy")
