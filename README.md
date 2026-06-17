@@ -12,6 +12,7 @@ lua/: the backend logic of this config
 |--plugins/:
 |  |-colorscheme.lua
 |  |-completion.lua
+|  |-gitsigns.lua
 |  |-lsp.lua
 |  |-telescope.lua
 |  |-treesitter.lua
@@ -31,6 +32,7 @@ This directory contains the configurations of each plugin that we use to achieve
   <li>Mason LSP manager</li>
   <li>telescope fuzzy finder</li>
   <li>treesitter syntax highlighter</li>
+  <li>gitsigns for in-editor git integration</li>
 </ol>
 
 
