@@ -16,6 +16,7 @@ return {
                 { "<leader>h", group = "Git hunks" },
                 { "<leader>l", group = "LSP" },
                 { "<leader>n", group = "No highlight" },
+                { "<leader>b", group = "Buffers" },
             },
         },
 

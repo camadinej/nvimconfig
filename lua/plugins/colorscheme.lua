@@ -31,5 +31,5 @@ return {
       vim.cmd.colorscheme("tokyonight-storm")
     end,
   },
-} 
+}
 
